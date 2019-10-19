@@ -1,14 +1,14 @@
 {
   "name": "angular-hw",
-  "version": "0.0.0",
   "devDependencies": {
-    "tslint": "^5.20.0",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.6.3"
+    "tslint": "5.20.0",
+    "tslint-config-airbnb": "5.11.2",
+    "typescript": "3.6.3"
   },
   "scripts": {
-    "start": "tsc",
-    "tslint": "node_modules/.bin/tslint -p tsconfig.json"
+    "start": "tsc --watch",
+    "tslint": "node_modules/.bin/tslint -p tsconfig.json",
+    "build": "tsc"
   },
   "engines": {
     "node": "10"
